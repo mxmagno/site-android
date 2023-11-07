@@ -13,24 +13,30 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #3BDA81, #185934);
-    height: 200px;
-    margin: 0px;
-}
-
-header > div {
     color: white;
-    height: 120px;
-    width: 430px;
-    padding: 30px;
-    text-align: center;
+    min-width: 200px;
     margin: auto;
 }
 
-div > h1, div > p {
+header > h1, header > p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.438);
+    margin: 0;
+    text-align: center;
 }
 
-nav > a {
+header > h1 {
+    padding: 40px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+nav.menu{
+    padding-bottom: 2px;
+}
+
+nav.menu > a {
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -38,7 +44,7 @@ nav > a {
     transition-duration: .2s;
 }
 
-nav > a:hover {
+nav.menu > a:hover {
     background-color: #3BDA81;
     color: #335944;
 }
@@ -82,7 +88,7 @@ footer {
     text-align: center;
     background-color: #335944;
     color: white;
-    margin: 10px 0px 0px 0px;
+    margin: 10px auto 0px auto;
     padding: 5px;
 }
 
