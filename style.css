@@ -14,7 +14,7 @@ body {
 header {
     background-image: linear-gradient(to bottom, #3BDA81, #185934);
     color: white;
-    min-width: 100px;
+    min-width: 300px;
     margin: auto;
 }
 
